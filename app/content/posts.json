@@ -1,0 +1,12 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "My beautiful trip to Paris",
+      "description": "How I ended up in the catacombs of Paris",
+      "content": "Incididunt labore reprehenderit tempor Lorem irure aute id. Eiusmod est aliquip eu est voluptate eiusmod officia do irure cillum voluptate amet. Voluptate Lorem adipisicing exercitation aliqua labore ex aliquip quis laboris dolor reprehenderit exercitation culpa. Id minim tempor nisi et eiusmod aute cupidatat occaecat in amet voluptate mollit et. Irure ex elit do dolor ipsum reprehenderit tempor eiusmod veniam ipsum ullamco velit cupidatat magna. Reprehenderit incididunt Lorem eu irure pariatur. Consectetur occaecat nostrud elit consequat quis aliquip.",
+      "author": "Martha Smith",
+      "publishedAt": "2023-05-06 12:00:00"
+    }
+  ]
+}
