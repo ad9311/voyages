@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Post } from "../defs";
+import { formatDate } from "../helpers/formatDate";
 
 function PostPreview(props: Post) {
   return (
@@ -9,7 +10,7 @@ function PostPreview(props: Post) {
       </Link>
       <p>{props.description}</p>
       <p>{props.author}</p>
-      <p>{props.publishedAt}</p>
+      <p>{formatDate(props.publishedAt)}</p>
     </article>
   )
 }
