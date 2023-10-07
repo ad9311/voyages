@@ -1,6 +1,6 @@
-import Link from 'next/link';
-import { Post } from '../defs';
-import { formatDate } from '../helpers/formatDate';
+import Link from "next/link";
+import { Post } from "../defs";
+import { formatDate } from "../helpers/formatDate";
 
 function PostPreview(props: Post) {
   return (

@@ -1,6 +1,6 @@
-import { Suspense } from 'react';
-import PostList from './posts/PostList';
-import Loading from './loading';
+import { Suspense } from "react";
+import PostList from "./posts/PostList";
+import Loading from "./loading";
 
 function Home() {
   return (
