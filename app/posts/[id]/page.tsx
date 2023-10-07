@@ -3,6 +3,8 @@ import { Params } from 'next/dist/shared/lib/router/utils/route-matcher';
 import PostContent from './PostContent';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
+import { Suspense } from 'react';
+import Loading from '@/app/loading';
 
 async function getPost(id: number | string) {
   if (Number.isInteger(Number(id))) {
@@ -23,7 +25,9 @@ async function PostContentPage({ params }: { params: Params}) {
     <main>
       <section>
         <Link href="/">Back</Link>
-        <PostContent {...post} />
+        <Suspense fallback={<Loading />}>
+          <PostContent {...post} />
+        </Suspense>
       </section>
     </main>
   )
