@@ -1,6 +1,6 @@
-import Link from "next/link";
-import { Post } from "../defs";
-import { formatDate } from "../helpers/formatDate";
+import Link from 'next/link';
+import { Post } from '../defs';
+import { formatDate } from '../helpers/formatDate';
 
 function PostPreview(props: Post) {
   return (
@@ -14,7 +14,7 @@ function PostPreview(props: Post) {
         <p className="italic text-xs">{formatDate(props.publishedAt)}</p>
       </div>
     </article>
-  )
+  );
 }
 
 export default PostPreview;

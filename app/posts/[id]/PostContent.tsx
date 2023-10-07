@@ -1,5 +1,5 @@
-import { Post } from '@/app/defs'
-import { formatDate, formatDateTime } from '@/app/helpers/formatDate'
+import { Post } from '@/app/defs';
+import { formatDate, formatDateTime } from '@/app/helpers/formatDate';
 
 function PostContent(props: Post) {
   return (
@@ -12,7 +12,7 @@ function PostContent(props: Post) {
       </div>
       <p className="text-justify">{props.content}</p>
     </article>
-  )
+  );
 }
 
-export default PostContent
+export default PostContent;

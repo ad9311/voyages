@@ -30,7 +30,7 @@ async function PostContentPage({ params }: { params: Params}) {
         </Suspense>
       </section>
     </main>
-  )
+  );
 }
 
 export default PostContentPage;

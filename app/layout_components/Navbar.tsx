@@ -5,7 +5,7 @@ function Navbar() {
         <h1 className="text-xl font-bold">VOYAGES</h1>
       </div>
     </div>
-  )
+  );
 }
 
 export default Navbar;
