@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 main {
-  @apply mx-auto container;
+  @apply mx-auto container px-2 sm:px-0;
 }
