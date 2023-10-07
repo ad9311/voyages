@@ -6,6 +6,7 @@
       "description": "A journey through the cultural heart of Japan",
       "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis libero vitae vehicula. Curabitur tristique lacinia augue, ac tristique turpis sagittis a. Maecenas fringilla enim nec tortor congue, non interdum neque hendrerit. Nam vehicula nulla in purus consectetur sollicitudin. Suspendisse potenti. Quisque id metus nec risus iaculis interdum.",
       "author": "John Smith",
+      "topic": "TIPS",
       "publishedAt": "2023-05-06 12:00:00"
     },
     {
@@ -14,6 +15,7 @@
       "description": "A romantic getaway in the city of canals",
       "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis libero vitae vehicula. Curabitur tristique lacinia augue, ac tristique turpis sagittis a. Maecenas fringilla enim nec tortor congue, non interdum neque hendrerit. Nam vehicula nulla in purus consectetur sollicitudin. Suspendisse potenti. Quisque id metus nec risus iaculis interdum.",
       "author": "Alice Johnson",
+      "topic": "STORY_TIME",
       "publishedAt": "2023-06-15 14:30:00"
     },
     {
@@ -22,6 +24,7 @@
       "description": "From the Eiffel Tower to the Louvre",
       "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis libero vitae vehicula. Curabitur tristique lacinia augue, ac tristique turpis sagittis a. Maecenas fringilla enim nec tortor congue, non interdum neque hendrerit. Nam vehicula nulla in purus consectetur sollicitudin. Suspendisse potenti. Quisque id metus nec risus iaculis interdum.",
       "author": "Emma Davis",
+      "topic": "ON_A_BUDGET",
       "publishedAt": "2023-07-22 09:45:00"
     },
     {
@@ -30,6 +33,7 @@
       "description": "Exploring the rainforests and wildlife",
       "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis libero vitae vehicula. Curabitur tristique lacinia augue, ac tristique turpis sagittis a. Maecenas fringilla enim nec tortor congue, non interdum neque hendrerit. Nam vehicula nulla in purus consectetur sollicitudin. Suspendisse potenti. Quisque id metus nec risus iaculis interdum.",
       "author": "David Clark",
+      "topic": "ON_A_BUDGET",
       "publishedAt": "2023-08-10 11:20:00"
     },
     {
@@ -38,6 +42,7 @@
       "description": "Sun, surf, and spirituality in Indonesia",
       "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis libero vitae vehicula. Curabitur tristique lacinia augue, ac tristique turpis sagittis a. Maecenas fringilla enim nec tortor congue, non interdum neque hendrerit. Nam vehicula nulla in purus consectetur sollicitudin. Suspendisse potenti. Quisque id metus nec risus iaculis interdum.",
       "author": "Sophia Williams",
+      "topic": "ON_A_BUDGET",
       "publishedAt": "2023-09-05 15:10:00"
     },
     {
@@ -46,6 +51,7 @@
       "description": "Encounters with the 'Big Five' in Africa",
       "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis libero vitae vehicula. Curabitur tristique lacinia augue, ac tristique turpis sagittis a. Maecenas fringilla enim nec tortor congue, non interdum neque hendrerit. Nam vehicula nulla in purus consectetur sollicitudin. Suspendisse potenti. Quisque id metus nec risus iaculis interdum.",
       "author": "Michael Brown",
+      "topic": "TIPS",
       "publishedAt": "2023-10-20 17:55:00"
     },
     {
@@ -54,6 +60,7 @@
       "description": "Hiking the Inca Trail to the ancient city",
       "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis libero vitae vehicula. Curabitur tristique lacinia augue, ac tristique turpis sagittis a. Maecenas fringilla enim nec tortor congue, non interdum neque hendrerit. Nam vehicula nulla in purus consectetur sollicitudin. Suspendisse potenti. Quisque id metus nec risus iaculis interdum.",
       "author": "Maria Rodriguez",
+      "topic": "STORY_TIME",
       "publishedAt": "2023-11-12 08:40:00"
     },
     {
@@ -62,6 +69,7 @@
       "description": "Adventures in the Cyclades Islands",
       "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis libero vitae vehicula. Curabitur tristique lacinia augue, ac tristique turpis sagittis a. Maecenas fringilla enim nec tortor congue, non interdum neque hendrerit. Nam vehicula nulla in purus consectetur sollicitudin. Suspendisse potenti. Quisque id metus nec risus iaculis interdum.",
       "author": "George Smith",
+      "topic": "STORY_TIME",
       "publishedAt": "2023-01-08 10:15:00"
     },
     {
@@ -70,6 +78,7 @@
       "description": "Exploring ancient history along the Nile",
       "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis libero vitae vehicula. Curabitur tristique lacinia augue, ac tristique turpis sagittis a. Maecenas fringilla enim nec tortor congue, non interdum neque hendrerit. Nam vehicula nulla in purus consectetur sollicitudin. Suspendisse potenti. Quisque id metus nec risus iaculis interdum.",
       "author": "Linda Martin",
+      "topic": "TIPS",
       "publishedAt": "2023-02-20 13:30:00"
     },
     {
@@ -78,6 +87,7 @@
       "description": "Discovering glaciers, geysers, and volcanoes",
       "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis libero vitae vehicula. Curabitur tristique lacinia augue, ac tristique turpis sagittis a. Maecenas fringilla enim nec tortor congue, non interdum neque hendrerit. Nam vehicula nulla in purus consectetur sollicitudin. Suspendisse potenti. Quisque id metus nec risus iaculis interdum.",
       "author": "Robert Johnson",
+      "topic": "TIPS",
       "publishedAt": "2023-03-25 16:45:00"
     },
     {
@@ -86,6 +96,7 @@
       "description": "A journey to the land of fjords and Northern Lights",
       "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis libero vitae vehicula. Curabitur tristique lacinia augue, ac tristique turpis sagittis a. Maecenas fringilla enim nec tortor congue, non interdum neque hendrerit. Nam vehicula nulla in purus consectetur sollicitudin. Suspendisse potenti. Quisque id metus nec risus iaculis interdum.",
       "author": "Sarah Davis",
+      "topic": "ON_A_BUDGET",
       "publishedAt": "2023-04-30 09:20:00"
     },
     {
@@ -93,7 +104,8 @@
       "title": "Cultural Immersion in Kyoto: Japan Adventure",
       "description": "Experiencing traditions and rituals of Japan",
       "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis libero vitae vehicula. Curabitur tristique lacinia augue, ac tristique turpis sagittis a. Maecenas fringilla enim nec tortor congue, non interdum neque hendrerit. Nam vehicula nulla in purus consectetur sollicitudin. Suspendisse potenti. Quisque id metus nec risus iaculis interdum.",
-      "author": "Daniel Brown",
+      "author": "Robert Johnson",
+      "topic": "ON_A_BUDGET",
       "publishedAt": "2023-05-12 11:50:00"
     },
     {
@@ -102,6 +114,7 @@
       "description": "Reaching the world's highest peaks on foot",
       "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis libero vitae vehicula. Curabitur tristique lacinia augue, ac tristique turpis sagittis a. Maecenas fringilla enim nec tortor congue, non interdum neque hendrerit. Nam vehicula nulla in purus consectetur sollicitudin. Suspendisse potenti. Quisque id metus nec risus iaculis interdum.",
       "author": "Laura Smith",
+      "topic": "TIPS",
       "publishedAt": "2023-06-20 14:15:00"
     },
     {
@@ -110,6 +123,7 @@
       "description": "Wine, art, and history in the heart of Italy",
       "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis libero vitae vehicula. Curabitur tristique lacinia augue, ac tristique turpis sagittis a. Maecenas fringilla enim nec tortor congue, non interdum neque hendrerit. Nam vehicula nulla in purus consectetur sollicitudin. Suspendisse potenti. Quisque id metus nec risus iaculis interdum.",
       "author": "William Johnson",
+      "topic": "ON_A_BUDGET",
       "publishedAt": "2023-07-05 16:30:00"
     },
     {
@@ -118,6 +132,7 @@
       "description": "From Tokyo to Kyoto, a journey through Japan's beauty",
       "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis libero vitae vehicula. Curabitur tristique lacinia augue, ac tristique turpis sagittis a. Maecenas fringilla enim nec tortor congue, non interdum neque hendrerit. Nam vehicula nulla in purus consectetur sollicitudin. Suspendisse potenti. Quisque id metus nec risus iaculis interdum.",
       "author": "Olivia Davis",
+      "topic": "STORY_TIME",
       "publishedAt": "2023-08-15 09:55:00"
     },
     {
@@ -126,6 +141,7 @@
       "description": "Jungle excursions and the mighty Amazon River",
       "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis libero vitae vehicula. Curabitur tristique lacinia augue, ac tristique turpis sagittis a. Maecenas fringilla enim nec tortor congue, non interdum neque hendrerit. Nam vehicula nulla in purus consectetur sollicitudin. Suspendisse potenti. Quisque id metus nec risus iaculis interdum.",
       "author": "Emily Wilson",
+      "topic": "TIPS",
       "publishedAt": "2023-09-10 11:40:00"
     },
     {
@@ -134,6 +150,7 @@
       "description": "A journey through the rugged Australian wilderness",
       "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis libero vitae vehicula. Curabitur tristique lacinia augue, ac tristique turpis sagittis a. Maecenas fringilla enim nec tortor congue, non interdum neque hendrerit. Nam vehicula nulla in purus consectetur sollicitudin. Suspendisse potenti. Quisque id metus nec risus iaculis interdum.",
       "author": "Sophie Martin",
+      "topic": "ON_A_BUDGET",
       "publishedAt": "2023-10-20 14:25:00"
     },
     {
@@ -142,6 +159,7 @@
       "description": "Hiking, skiing, and breathtaking mountain views",
       "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis libero vitae vehicula. Curabitur tristique lacinia augue, ac tristique turpis sagittis a. Maecenas fringilla enim nec tortor congue, non interdum neque hendrerit. Nam vehicula nulla in purus consectetur sollicitudin. Suspendisse potenti. Quisque id metus nec risus iaculis interdum.",
       "author": "Daniel Smith",
+      "topic": "ON_A_BUDGET",
       "publishedAt": "2023-11-05 16:10:00"
     },
     {
@@ -150,6 +168,7 @@
       "description": "Island-hopping and turquoise waters in Greece",
       "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis libero vitae vehicula. Curabitur tristique lacinia augue, ac tristique turpis sagittis a. Maecenas fringilla enim nec tortor congue, non interdum neque hendrerit. Nam vehicula nulla in purus consectetur sollicitudin. Suspendisse potenti. Quisque id metus nec risus iaculis interdum.",
       "author": "Lucas Johnson",
+      "topic": "TIPS",
       "publishedAt": "2023-12-12 09:50:00"
     },
     {
@@ -158,6 +177,7 @@
       "description": "Surf, sunsets, and the allure of the Golden State",
       "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis libero vitae vehicula. Curabitur tristique lacinia augue, ac tristique turpis sagittis a. Maecenas fringilla enim nec tortor congue, non interdum neque hendrerit. Nam vehicula nulla in purus consectetur sollicitudin. Suspendisse potenti. Quisque id metus nec risus iaculis interdum.",
       "author": "Sophia Davis",
+      "topic": "TIPS",
       "publishedAt": "2023-01-20 11:15:00"
     }
   ]

@@ -1,6 +1,7 @@
 import content from '@/app/content/posts.json';
 import { Post } from '../defs';
-import PostPreview from './PostPreview';
+// import PostPreview from './PostPreview';
+import PostListContent from './PostListContent';
 
 async function fetchPosts() {
   await new Promise((resolve) => setTimeout(resolve, 3000));
@@ -10,17 +11,7 @@ async function fetchPosts() {
 async function PostList() {
   const posts = await fetchPosts();
 
-  const mappedPosts = posts.map((post) => (
-    <li key={post.id}>
-      <PostPreview {...post} />
-    </li>
-  ));
-
-  return (
-    <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-3">
-      {mappedPosts}
-    </ul>
-  );
+  return <PostListContent posts={posts} />;
 }
 
 export default PostList;
