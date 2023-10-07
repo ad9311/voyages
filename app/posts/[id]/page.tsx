@@ -24,7 +24,7 @@ async function PostContentPage({ params }: { params: Params}) {
   return (
     <main>
       <section>
-        <Link href="/">Back</Link>
+        <Link href="/" className="text-xl">&#60; Back</Link>
         <Suspense fallback={<Loading />}>
           <PostContent {...post} />
         </Suspense>
