@@ -1,6 +1,6 @@
-import content from "@/app/content/posts.json";
-import { Post } from "../defs";
-import PostPreview from "./PostPreview";
+import content from '@/app/content/posts.json';
+import { Post } from '../defs';
+import PostPreview from './PostPreview';
 
 async function fetchPosts() {
   await new Promise((resolve) => setTimeout(resolve, 3000));
@@ -16,11 +16,7 @@ async function PostList() {
     </li>
   ));
 
-  return (
-    <ul className="grid grid-cols-1 sm:grid-cols-3 xl:grid-cols-4 gap-3">
-      {mappedPosts}
-    </ul>
-  );
+  return <ul className="grid grid-cols-1 sm:grid-cols-3 xl:grid-cols-4 gap-3">{mappedPosts}</ul>;
 }
 
 export default PostList;

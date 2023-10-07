@@ -1,10 +1,10 @@
-import content from "@/app/content/posts.json";
-import { Params } from "next/dist/shared/lib/router/utils/route-matcher";
-import PostContent from "./PostContent";
-import Link from "next/link";
-import { notFound } from "next/navigation";
-import { Suspense } from "react";
-import Loading from "@/app/loading";
+import content from '@/app/content/posts.json';
+import { Params } from 'next/dist/shared/lib/router/utils/route-matcher';
+import PostContent from './PostContent';
+import Link from 'next/link';
+import { notFound } from 'next/navigation';
+import { Suspense } from 'react';
+import Loading from '@/app/loading';
 
 async function getPost(id: number | string) {
   if (Number.isInteger(Number(id))) {
