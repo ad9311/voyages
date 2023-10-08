@@ -29,10 +29,10 @@ export function sortPostsByDate(posts: Post[]) {
 
 export function sortPostsByTopic(posts: Post[]) {
   return posts.sort((a, b) => {
-    if (a.topic < b.topic) {
+    if (a.category < b.category) {
       return -1;
     }
-    if (a.topic > b.topic) {
+    if (a.category > b.category) {
       return 1;
     }
     return 0;
@@ -45,7 +45,7 @@ function sortPosts(posts: Post[], sortBy: SortPostsBy) {
       return sortPostsByAuthor(posts);
     case 'DATE':
       return sortPostsByDate(posts);
-    case 'TOPIC':
+    case 'CATEGORY':
       return sortPostsByTopic(posts);
     default:
       return posts;

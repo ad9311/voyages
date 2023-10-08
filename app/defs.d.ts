@@ -1,4 +1,4 @@
-export type PostTopic = 'TIPS' | 'STORY_TIME' | 'ON_A_BUDGET';
+export type PostCategory = 'Tips' | 'Storytime' | 'On a budget';
 
 export interface Post {
   id: number;
@@ -6,9 +6,9 @@ export interface Post {
   description: string;
   content: string;
   author: string;
-  topic: PostTopic;
+  category: PostTopic;
   publishedAt: string;
 }
 
-export type SortPostsBy = 'AUTHOR' | 'DATE' | 'TOPIC';
+export type SortPostsBy = 'AUTHOR' | 'DATE' | 'CATEGORY';
 export type OrderPostsMethod = 'ASC' | 'DESC';

@@ -40,7 +40,7 @@ function PostListContent({ posts }: { posts: Post[] }) {
           <select name="sort" id="sort" onChange={handleSort} className="p-1 min-w-[10rem]" defaultValue="DATE">
             <option value="AUTHOR">Author</option>
             <option value="DATE">Date</option>
-            <option value="TOPIC">Topic</option>
+            <option value="CATEGORY">Category</option>
           </select>
         </label>
         <label htmlFor="order" className="italic">
