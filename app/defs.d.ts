@@ -20,3 +20,9 @@ export interface Post {
 
 export type SortPostsBy = 'AUTHOR' | 'DATE' | 'CATEGORY';
 export type OrderPostsMethod = 'ASC' | 'DESC';
+
+export interface Paginator {
+  pagesCount: number;
+  onPageChange: (e: { selected: number }) => void;
+  className?: string;
+}
