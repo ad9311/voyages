@@ -1,8 +1,8 @@
 import React from 'react';
-import { Paginator } from '../defs';
+import { PaginatorProps } from '../defs';
 import ReactPaginate from 'react-paginate';
 
-function Paginator(props: Paginator) {
+function Paginator(props: PaginatorProps) {
   return (
     <>
       {props.pagesCount > 1 && (

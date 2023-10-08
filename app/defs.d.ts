@@ -5,7 +5,7 @@ export interface PostComment {
   content: string;
 }
 
-export interface Post {
+export interface PostProps {
   id: number;
   title: string;
   thumbnail: string;
@@ -21,7 +21,7 @@ export interface Post {
 export type SortPostsBy = 'AUTHOR' | 'DATE' | 'CATEGORY';
 export type OrderPostsMethod = 'ASC' | 'DESC';
 
-export interface Paginator {
+export interface PaginatorProps {
   pagesCount: number;
   onPageChange: (e: { selected: number }) => void;
   className?: string;

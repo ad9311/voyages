@@ -1,8 +1,8 @@
 import Link from 'next/link';
-import { Post, PostCategory } from '../defs';
+import { PostProps, PostCategory } from '../defs';
 import { formatDate, formatDateTime } from '../helpers/formatDate';
 
-function PostPreview(props: Post) {
+function PostPreview(props: PostProps) {
   function categoryColor(category: PostCategory) {
     switch (category) {
       case 'Tips':

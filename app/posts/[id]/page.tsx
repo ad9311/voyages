@@ -5,11 +5,12 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { Suspense } from 'react';
 import Loading from '@/app/loading';
+import { PostProps } from '@/app/defs';
 
 async function getPost(id: number | string) {
   if (Number.isInteger(Number(id))) {
     const post = content.posts.find((p) => p.id === Number(id));
-    return post;
+    return post as PostProps;
   }
 
   return undefined;

@@ -1,8 +1,8 @@
-import { Post } from '@/app/defs';
+import { PostProps } from '@/app/defs';
 import { formatDate, formatDateTime } from '@/app/helpers/formatDate';
 import PostComment from './PostComment';
 
-function PostContent(props: Post) {
+function PostContent(props: PostProps) {
   const mappedImageParagraphs = props.paragraphs.map((paragraph, index) => (
     <div key={`post-${props.id}-${index}`}>
       <img src={props.images[index]} alt={`image ${index + 1}`} />

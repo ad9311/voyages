@@ -1,11 +1,11 @@
 'use client';
 
 import React, { useMemo, useState } from 'react';
-import { OrderPostsMethod, Post, SortPostsBy } from '../defs';
+import { OrderPostsMethod, PostProps, SortPostsBy } from '../defs';
 import sortPosts from '../helpers/sortPosts';
 import PostPreview from './PostPreview';
 
-function PostListContent({ posts }: { posts: Post[] }) {
+function PostListContent({ posts }: { posts: PostProps[] }) {
   const [sortBy, setSortBy] = useState<SortPostsBy>('DATE');
   const [orderMethod, setOrderMethod] = useState<OrderPostsMethod>('ASC');
 

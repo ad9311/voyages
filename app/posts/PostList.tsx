@@ -1,11 +1,10 @@
 import content from '@/app/content/posts.json';
-import { Post } from '../defs';
-// import PostPreview from './PostPreview';
+import { PostProps } from '../defs';
 import PostListContent from './PostListContent';
 
 async function fetchPosts() {
   await new Promise((resolve) => setTimeout(resolve, 3000));
-  return content.posts as Post[];
+  return content.posts as PostProps[];
 }
 
 async function PostList() {
