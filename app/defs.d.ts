@@ -1,13 +1,20 @@
 export type PostCategory = 'Tips' | 'Storytime' | 'On a budget';
 
+export interface PostComment {
+  author: string;
+  content: string;
+}
+
 export interface Post {
   id: number;
   title: string;
   thumbnail: string;
   description: string;
-  content: string;
+  images: string[];
+  paragraphs: string[];
   author: string;
-  category: PostTopic;
+  category: PostCategory;
+  comments: PostComment[];
   publishedAt: string;
 }
 
