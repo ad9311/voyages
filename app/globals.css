@@ -6,6 +6,10 @@ main {
   @apply mt-10 pb-40 mx-auto container px-2 sm:px-0;
 }
 
+.form select {
+	@apply p-1 min-w-[10rem] rounded-md;
+}
+
 /* Taken from https://cssload.net/en/spinners/4 */
 .cssload-container {
 	width: 100%;
