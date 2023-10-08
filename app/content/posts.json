@@ -3,6 +3,7 @@
     {
       "id": 1,
       "title": "Exploring the Streets of Kyoto",
+      "thumbnail": "https://placehold.co/600x400",
       "description": "A journey through the cultural heart of Japan",
       "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis libero vitae vehicula. Curabitur tristique lacinia augue, ac tristique turpis sagittis a. Maecenas fringilla enim nec tortor congue, non interdum neque hendrerit. Nam vehicula nulla in purus consectetur sollicitudin. Suspendisse potenti. Quisque id metus nec risus iaculis interdum.",
       "author": "John Smith",
@@ -12,6 +13,7 @@
     {
       "id": 2,
       "title": "Discovering the Magic of Venice",
+      "thumbnail": "https://placehold.co/600x400",
       "description": "A romantic getaway in the city of canals",
       "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis libero vitae vehicula. Curabitur tristique lacinia augue, ac tristique turpis sagittis a. Maecenas fringilla enim nec tortor congue, non interdum neque hendrerit. Nam vehicula nulla in purus consectetur sollicitudin. Suspendisse potenti. Quisque id metus nec risus iaculis interdum.",
       "author": "Alice Johnson",
@@ -21,6 +23,7 @@
     {
       "id": 3,
       "title": "A Weekend in Paris: Love and Adventure",
+      "thumbnail": "https://placehold.co/600x400",
       "description": "From the Eiffel Tower to the Louvre",
       "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis libero vitae vehicula. Curabitur tristique lacinia augue, ac tristique turpis sagittis a. Maecenas fringilla enim nec tortor congue, non interdum neque hendrerit. Nam vehicula nulla in purus consectetur sollicitudin. Suspendisse potenti. Quisque id metus nec risus iaculis interdum.",
       "author": "Emma Davis",
@@ -30,6 +33,7 @@
     {
       "id": 4,
       "title": "Jungle Adventure in Costa Rica",
+      "thumbnail": "https://placehold.co/600x400",
       "description": "Exploring the rainforests and wildlife",
       "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis libero vitae vehicula. Curabitur tristique lacinia augue, ac tristique turpis sagittis a. Maecenas fringilla enim nec tortor congue, non interdum neque hendrerit. Nam vehicula nulla in purus consectetur sollicitudin. Suspendisse potenti. Quisque id metus nec risus iaculis interdum.",
       "author": "David Clark",
@@ -39,6 +43,7 @@
     {
       "id": 5,
       "title": "Island Paradise: Bali Adventure",
+      "thumbnail": "https://placehold.co/600x400",
       "description": "Sun, surf, and spirituality in Indonesia",
       "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis libero vitae vehicula. Curabitur tristique lacinia augue, ac tristique turpis sagittis a. Maecenas fringilla enim nec tortor congue, non interdum neque hendrerit. Nam vehicula nulla in purus consectetur sollicitudin. Suspendisse potenti. Quisque id metus nec risus iaculis interdum.",
       "author": "Sophia Williams",
@@ -48,6 +53,7 @@
     {
       "id": 6,
       "title": "Safari Adventure in Kenya",
+      "thumbnail": "https://placehold.co/600x400",
       "description": "Encounters with the 'Big Five' in Africa",
       "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis libero vitae vehicula. Curabitur tristique lacinia augue, ac tristique turpis sagittis a. Maecenas fringilla enim nec tortor congue, non interdum neque hendrerit. Nam vehicula nulla in purus consectetur sollicitudin. Suspendisse potenti. Quisque id metus nec risus iaculis interdum.",
       "author": "Michael Brown",
@@ -57,6 +63,7 @@
     {
       "id": 7,
       "title": "Mystical Machu Picchu: Peru Adventure",
+      "thumbnail": "https://placehold.co/600x400",
       "description": "Hiking the Inca Trail to the ancient city",
       "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis libero vitae vehicula. Curabitur tristique lacinia augue, ac tristique turpis sagittis a. Maecenas fringilla enim nec tortor congue, non interdum neque hendrerit. Nam vehicula nulla in purus consectetur sollicitudin. Suspendisse potenti. Quisque id metus nec risus iaculis interdum.",
       "author": "Maria Rodriguez",
@@ -66,6 +73,7 @@
     {
       "id": 8,
       "title": "Enchanting Santorini: A Greek Odyssey",
+      "thumbnail": "https://placehold.co/600x400",
       "description": "Adventures in the Cyclades Islands",
       "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis libero vitae vehicula. Curabitur tristique lacinia augue, ac tristique turpis sagittis a. Maecenas fringilla enim nec tortor congue, non interdum neque hendrerit. Nam vehicula nulla in purus consectetur sollicitudin. Suspendisse potenti. Quisque id metus nec risus iaculis interdum.",
       "author": "George Smith",
@@ -75,6 +83,7 @@
     {
       "id": 9,
       "title": "Adventures in the Land of Pharaohs: Egypt",
+      "thumbnail": "https://placehold.co/600x400",
       "description": "Exploring ancient history along the Nile",
       "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis libero vitae vehicula. Curabitur tristique lacinia augue, ac tristique turpis sagittis a. Maecenas fringilla enim nec tortor congue, non interdum neque hendrerit. Nam vehicula nulla in purus consectetur sollicitudin. Suspendisse potenti. Quisque id metus nec risus iaculis interdum.",
       "author": "Linda Martin",
@@ -84,6 +93,7 @@
     {
       "id": 10,
       "title": "A Journey to the Land of Fire and Ice: Iceland",
+      "thumbnail": "https://placehold.co/600x400",
       "description": "Discovering glaciers, geysers, and volcanoes",
       "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis libero vitae vehicula. Curabitur tristique lacinia augue, ac tristique turpis sagittis a. Maecenas fringilla enim nec tortor congue, non interdum neque hendrerit. Nam vehicula nulla in purus consectetur sollicitudin. Suspendisse potenti. Quisque id metus nec risus iaculis interdum.",
       "author": "Robert Johnson",
@@ -93,6 +103,7 @@
     {
       "id": 11,
       "title": "An Arctic Adventure: Exploring Norway",
+      "thumbnail": "https://placehold.co/600x400",
       "description": "A journey to the land of fjords and Northern Lights",
       "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis libero vitae vehicula. Curabitur tristique lacinia augue, ac tristique turpis sagittis a. Maecenas fringilla enim nec tortor congue, non interdum neque hendrerit. Nam vehicula nulla in purus consectetur sollicitudin. Suspendisse potenti. Quisque id metus nec risus iaculis interdum.",
       "author": "Sarah Davis",
@@ -102,6 +113,7 @@
     {
       "id": 12,
       "title": "Cultural Immersion in Kyoto: Japan Adventure",
+      "thumbnail": "https://placehold.co/600x400",
       "description": "Experiencing traditions and rituals of Japan",
       "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis libero vitae vehicula. Curabitur tristique lacinia augue, ac tristique turpis sagittis a. Maecenas fringilla enim nec tortor congue, non interdum neque hendrerit. Nam vehicula nulla in purus consectetur sollicitudin. Suspendisse potenti. Quisque id metus nec risus iaculis interdum.",
       "author": "Robert Johnson",
@@ -111,6 +123,7 @@
     {
       "id": 13,
       "title": "Trekking in the Himalayas: Nepal Adventure",
+      "thumbnail": "https://placehold.co/600x400",
       "description": "Reaching the world's highest peaks on foot",
       "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis libero vitae vehicula. Curabitur tristique lacinia augue, ac tristique turpis sagittis a. Maecenas fringilla enim nec tortor congue, non interdum neque hendrerit. Nam vehicula nulla in purus consectetur sollicitudin. Suspendisse potenti. Quisque id metus nec risus iaculis interdum.",
       "author": "Laura Smith",
@@ -120,6 +133,7 @@
     {
       "id": 14,
       "title": "A Taste of Tuscany: Italy Adventure",
+      "thumbnail": "https://placehold.co/600x400",
       "description": "Wine, art, and history in the heart of Italy",
       "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis libero vitae vehicula. Curabitur tristique lacinia augue, ac tristique turpis sagittis a. Maecenas fringilla enim nec tortor congue, non interdum neque hendrerit. Nam vehicula nulla in purus consectetur sollicitudin. Suspendisse potenti. Quisque id metus nec risus iaculis interdum.",
       "author": "William Johnson",
@@ -129,6 +143,7 @@
     {
       "id": 15,
       "title": "Adventure in the Land of the Rising Sun: Japan",
+      "thumbnail": "https://placehold.co/600x400",
       "description": "From Tokyo to Kyoto, a journey through Japan's beauty",
       "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis libero vitae vehicula. Curabitur tristique lacinia augue, ac tristique turpis sagittis a. Maecenas fringilla enim nec tortor congue, non interdum neque hendrerit. Nam vehicula nulla in purus consectetur sollicitudin. Suspendisse potenti. Quisque id metus nec risus iaculis interdum.",
       "author": "Olivia Davis",
@@ -138,6 +153,7 @@
     {
       "id": 16,
       "title": "An Amazonian Adventure: Exploring Brazil",
+      "thumbnail": "https://placehold.co/600x400",
       "description": "Jungle excursions and the mighty Amazon River",
       "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis libero vitae vehicula. Curabitur tristique lacinia augue, ac tristique turpis sagittis a. Maecenas fringilla enim nec tortor congue, non interdum neque hendrerit. Nam vehicula nulla in purus consectetur sollicitudin. Suspendisse potenti. Quisque id metus nec risus iaculis interdum.",
       "author": "Emily Wilson",
@@ -147,6 +163,7 @@
     {
       "id": 17,
       "title": "Experiencing the Outback: Australia Adventure",
+      "thumbnail": "https://placehold.co/600x400",
       "description": "A journey through the rugged Australian wilderness",
       "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis libero vitae vehicula. Curabitur tristique lacinia augue, ac tristique turpis sagittis a. Maecenas fringilla enim nec tortor congue, non interdum neque hendrerit. Nam vehicula nulla in purus consectetur sollicitudin. Suspendisse potenti. Quisque id metus nec risus iaculis interdum.",
       "author": "Sophie Martin",
@@ -156,6 +173,7 @@
     {
       "id": 18,
       "title": "Adventures in the Swiss Alps",
+      "thumbnail": "https://placehold.co/600x400",
       "description": "Hiking, skiing, and breathtaking mountain views",
       "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis libero vitae vehicula. Curabitur tristique lacinia augue, ac tristique turpis sagittis a. Maecenas fringilla enim nec tortor congue, non interdum neque hendrerit. Nam vehicula nulla in purus consectetur sollicitudin. Suspendisse potenti. Quisque id metus nec risus iaculis interdum.",
       "author": "Daniel Smith",
@@ -165,6 +183,7 @@
     {
       "id": 19,
       "title": "Sailing the Greek Islands: A Mediterranean Odyssey",
+      "thumbnail": "https://placehold.co/600x400",
       "description": "Island-hopping and turquoise waters in Greece",
       "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis libero vitae vehicula. Curabitur tristique lacinia augue, ac tristique turpis sagittis a. Maecenas fringilla enim nec tortor congue, non interdum neque hendrerit. Nam vehicula nulla in purus consectetur sollicitudin. Suspendisse potenti. Quisque id metus nec risus iaculis interdum.",
       "author": "Lucas Johnson",
@@ -174,6 +193,7 @@
     {
       "id": 20,
       "title": "Sunny Escapes: California Dreaming",
+      "thumbnail": "https://placehold.co/600x400",
       "description": "Surf, sunsets, and the allure of the Golden State",
       "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis libero vitae vehicula. Curabitur tristique lacinia augue, ac tristique turpis sagittis a. Maecenas fringilla enim nec tortor congue, non interdum neque hendrerit. Nam vehicula nulla in purus consectetur sollicitudin. Suspendisse potenti. Quisque id metus nec risus iaculis interdum.",
       "author": "Sophia Davis",

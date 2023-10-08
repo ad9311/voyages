@@ -17,15 +17,15 @@ function PostPreview(props: Post) {
   }
 
   return (
-    <article className="h-full border px-2 py-3 grid grid-rows-3">
+    <article className="h-full border px-2 py-3 grid sm:grid-rows-5 xl:grid-rows-6">
       <Link href={`/posts/${props.id}`} className="h-fit">
         <h2 className="text-xl font-bold">{props.title}</h2>
       </Link>
-      <div>
-        <span>IMAGE</span>
+      <div className="row-start-2 sm:row-span-3 xl:row-span-4">
+        <img src={props.thumbnail} alt="Thumbnail" />
         <p>{props.description}</p>
       </div>
-      <div>
+      <div className="row-start-5 xl:row-start-6">
         <strong
           title={props.category}
           className={`block mt-5 w-fit px-2 py-0.5 text-sm rounded-md ${categoryColor(
