@@ -22,7 +22,12 @@ function PostPreview(props: Post) {
         <h2 className="text-xl font-bold">{props.title}</h2>
       </Link>
       <p>{props.description}</p>
-      <strong className={`block mt-3 w-fit px-2 py-0.5 text-sm rounded-md ${categoryColor(props.category)}`}>{props.category}</strong>
+      <strong
+        className={`block mt-3 w-fit px-2 py-0.5 text-sm rounded-md ${categoryColor(
+          props.category,
+        )}`}>
+        {props.category}
+      </strong>
       <div className="mt-5 flex items-center justify-between">
         <p className="text-sm">{props.author}</p>
         <p className="italic text-xs">{formatDate(props.publishedAt)}</p>

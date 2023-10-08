@@ -37,7 +37,12 @@ function PostListContent({ posts }: { posts: Post[] }) {
         <label htmlFor="sort" className="italic">
           Sort posts by:
           <br />
-          <select name="sort" id="sort" onChange={handleSort} className="p-1 min-w-[10rem]" defaultValue="DATE">
+          <select
+            name="sort"
+            id="sort"
+            onChange={handleSort}
+            className="p-1 min-w-[10rem]"
+            defaultValue="DATE">
             <option value="AUTHOR">Author</option>
             <option value="DATE">Date</option>
             <option value="CATEGORY">Category</option>
