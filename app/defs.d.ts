@@ -11,4 +11,4 @@ export interface Post {
 }
 
 export type SortPostsBy = 'AUTHOR' | 'DATE' | 'TOPIC';
-export type OrderPostsOn = 'ASC' | 'DESC';
+export type OrderPostsMethod = 'ASC' | 'DESC';

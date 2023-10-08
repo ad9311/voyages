@@ -1,34 +1,54 @@
 'use client';
 
-import { useMemo, useState } from 'react';
-import { Post, SortPostsBy } from '../defs';
+import React, { useMemo, useState } from 'react';
+import { OrderPostsMethod, Post, SortPostsBy } from '../defs';
 import sortPosts from '../helpers/sortPosts';
 import PostPreview from './PostPreview';
 
 function PostListContent({ posts }: { posts: Post[] }) {
   const [sortBy, setSortBy] = useState<SortPostsBy>('DATE');
+  const [orderMethod, setOrderMethod] = useState<OrderPostsMethod>('ASC');
 
   function handleSort(e: React.ChangeEvent<HTMLSelectElement>) {
     setSortBy(e.target.value as SortPostsBy);
   }
 
+  function handleOrder(e: React.ChangeEvent<HTMLSelectElement>) {
+    setOrderMethod(e.target.value as OrderPostsMethod);
+  }
+
   const mappedPosts = useMemo(() => {
-    return sortPosts(posts, sortBy).map((post) => (
+    const sortedPosts = sortPosts(posts, sortBy).map((post) => (
       <li key={post.id}>
         <PostPreview {...post} />
       </li>
     ));
-  }, [sortBy, posts]);
+
+    if (orderMethod === 'DESC') {
+      return sortedPosts.reverse();
+    }
+
+    return sortedPosts;
+  }, [posts, sortBy, orderMethod]);
 
   return (
     <>
-      <form className="form">
-        <label htmlFor="sort">
+      <form className="mb-5 flex justify-between text-sm">
+        <label htmlFor="sort" className="italic">
           Sort posts by:
-          <select name="sort" id="sort" onChange={handleSort}>
+          <br />
+          <select name="sort" id="sort" onChange={handleSort} className="p-1 min-w-[10rem]" defaultValue="DATE">
             <option value="AUTHOR">Author</option>
             <option value="DATE">Date</option>
             <option value="TOPIC">Topic</option>
+          </select>
+        </label>
+        <label htmlFor="order" className="italic">
+          Order posts by:
+          <br />
+          <select name="order" id="order" onChange={handleOrder} className="p-1 min-w-[10rem]">
+            <option value="ASC">Ascending</option>
+            <option value="DESC">Descending</option>
           </select>
         </label>
       </form>

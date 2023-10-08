@@ -6,7 +6,7 @@ function Home() {
   return (
     <main>
       <section>
-        <h2>Recent posts</h2>
+        {/* <h2>Recent posts</h2> */}
         <Suspense fallback={<Loading />}>
           <PostList />
         </Suspense>
