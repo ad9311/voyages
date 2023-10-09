@@ -13,21 +13,22 @@ function PostListContent({ posts }: { posts: PostProps[] }) {
   const [page, setPage] = useState(1);
 
   function handleSort(e: React.ChangeEvent<HTMLSelectElement>) {
-    // setPage(1);
+    setPage(1);
     setSortBy(e.target.value as SortPostsBy);
   }
 
   function handleOrder(e: React.ChangeEvent<HTMLSelectElement>) {
-    // setPage(1);
+    setPage(1);
     setOrderMethod(e.target.value as OrderPostsMethod);
   }
 
   function handleOnPageChange(e: { selected: number }) {
+    window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
     setPage(e.selected + 1);
   }
 
   const postsPerPage = 12;
-  const pagesCount = countPages(posts, postsPerPage);
+  const pageCount = countPages(posts, postsPerPage);
 
   const sortedAndOrdedPosts = useMemo(() => {
     const sortedPosts = sortPosts(posts, sortBy);
@@ -72,7 +73,7 @@ function PostListContent({ posts }: { posts: PostProps[] }) {
       <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-3">
         {paginatedPosts}
       </ul>
-      <Paginator className="mt-10" onPageChange={handleOnPageChange} pagesCount={pagesCount} />
+      <Paginator className="mt-10" onPageChange={handleOnPageChange} pageCount={pageCount} />
     </>
   );
 }
