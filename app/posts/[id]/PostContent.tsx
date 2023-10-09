@@ -34,11 +34,18 @@ function PostContent(props: PostProps) {
         <div className="pl-5 mt-1 mb-10">
           <div className="flex items-center gap-3">
             <p className="text-secondary font-bold">{props.author}</p>
-            <p className="text-sm italic text-neutral-400" title={formatDateTime(props.publishedAt)}>
+            <p
+              className="text-sm italic text-neutral-400"
+              title={formatDateTime(props.publishedAt)}>
               {formatDate(props.publishedAt)}
             </p>
           </div>
-          <strong className={`block mt-1 w-fit px-2 py-0.5 text-sm rounded-md ${categoryColor(props.category)}`}>{props.category}</strong>
+          <strong
+            className={`block mt-1 w-fit px-2 py-0.5 text-sm rounded-md ${categoryColor(
+              props.category,
+            )}`}>
+            {props.category}
+          </strong>
         </div>
         <div>{mappedImageParagraphs}</div>
       </article>
