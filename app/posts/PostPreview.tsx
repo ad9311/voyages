@@ -3,20 +3,20 @@ import { PostProps, PostCategory } from '../defs';
 import { formatDate, formatDateTime } from '../helpers/formatDate';
 import Image from 'next/image';
 
-function PostPreview(props: PostProps) {
-  function categoryColor(category: PostCategory) {
-    switch (category) {
-      case 'Tips':
-        return 'bg-yellow-300';
-      case 'On a budget':
-        return 'bg-purple-300';
-      case 'Storytime':
-        return 'bg-blue-300';
-      default:
-        return 'bg-neutral-300';
-    }
+export function categoryColor(category: PostCategory) {
+  switch (category) {
+    case 'Tips':
+      return 'bg-yellow-300';
+    case 'On a budget':
+      return 'bg-purple-300';
+    case 'Storytime':
+      return 'bg-blue-300';
+    default:
+      return 'bg-neutral-300';
   }
+}
 
+function PostPreview(props: PostProps) {
   return (
     <article className="h-full border border-orange-100 bg-orange-50 hover:bg-orange-100 px-4 pt-8 pb-3 grid sm:grid-rows-5 xl:grid-rows-6 rounded-md">
       <Link href={`/posts/${props.id}`} className="h-fit">

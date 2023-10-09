@@ -2,6 +2,7 @@ import Image from 'next/image';
 import { PostProps } from '@/app/defs';
 import { formatDate, formatDateTime } from '@/app/helpers/formatDate';
 import PostComment from './PostComment';
+import { categoryColor } from '../PostPreview';
 
 function PostContent(props: PostProps) {
   const mappedImageParagraphs = props.paragraphs.map((paragraph, index) => (
@@ -30,11 +31,14 @@ function PostContent(props: PostProps) {
           {props.title}
         </h2>
         <h3 className="text-base sm:text-xl text-center text-neutral-600">{props.description}</h3>
-        <div className="pl-5 mt-1 mb-10 flex items-center gap-3">
-          <p className="text-secondary font-bold">{props.author}</p>
-          <p className="text-sm italic text-neutral-400" title={formatDateTime(props.publishedAt)}>
-            {formatDate(props.publishedAt)}
-          </p>
+        <div className="pl-5 mt-1 mb-10">
+          <div className="flex items-center gap-3">
+            <p className="text-secondary font-bold">{props.author}</p>
+            <p className="text-sm italic text-neutral-400" title={formatDateTime(props.publishedAt)}>
+              {formatDate(props.publishedAt)}
+            </p>
+          </div>
+          <strong className={`block mt-1 w-fit px-2 py-0.5 text-sm rounded-md ${categoryColor(props.category)}`}>{props.category}</strong>
         </div>
         <div>{mappedImageParagraphs}</div>
       </article>
