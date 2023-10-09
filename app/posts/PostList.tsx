@@ -3,7 +3,8 @@ import { PostProps } from '../defs';
 import PostListContent from './PostListContent';
 
 async function fetchPosts() {
-  await new Promise((resolve) => setTimeout(resolve, 1500));
+  // Simulates an API call
+  await new Promise((resolve) => setTimeout(resolve, 1000));
   return content.posts as PostProps[];
 }
 

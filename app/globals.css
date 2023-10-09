@@ -19,7 +19,7 @@ main {
 }
 
 .form select {
-	@apply p-1 min-w-[10rem] rounded-md border bg-neutral-50 text-neutral-600;
+	@apply p-1 min-w-[8rem] rounded-md border bg-neutral-50 text-neutral-600;
 }
 
 /* Taken from https://cssload.net/en/spinners/4 */
