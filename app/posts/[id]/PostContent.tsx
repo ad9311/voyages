@@ -49,7 +49,7 @@ function PostContent(props: PostProps) {
         </div>
         <div>{mappedImageParagraphs}</div>
       </article>
-      <section className="mx-auto w-[60rem]">
+      <section className="mx-auto max-w-[60rem]">
         <h3 className="mt-10 mb-2 text-xl font-bold">Comments:</h3>
         <ul className="bg-neutral-50 border p-10 max-h-96 overflow-y-scroll">{mappedComments}</ul>
       </section>
