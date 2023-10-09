@@ -1,11 +1,10 @@
 import React from 'react';
-import { PaginatorProps } from '../defs';
-import ReactPaginate from 'react-paginate';
+import ReactPaginate, { ReactPaginateProps } from 'react-paginate';
 
-function Paginator(props: PaginatorProps) {
+function Paginator(props: ReactPaginateProps) {
   return (
     <>
-      {props.pagesCount > 1 && (
+      {props.pageCount > 1 && (
         <div className={props.className}>
           <div className="w-fit mx-auto text-[1.1rem] px-10 py-1.5 border bg-neutral-50 hover:bg-neutral-100  rounded-md">
             <ReactPaginate
@@ -19,7 +18,7 @@ function Paginator(props: PaginatorProps) {
               previousLabel="<"
               onPageChange={props.onPageChange}
               pageRangeDisplayed={2}
-              pageCount={props.pagesCount}
+              pageCount={props.pageCount}
               renderOnZeroPageCount={null}
             />
           </div>
