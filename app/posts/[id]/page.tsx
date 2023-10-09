@@ -25,7 +25,9 @@ async function PostContentPage({ params }: { params: Params }) {
   return (
     <main>
       <section>
-        <Link href="/" className="text-xl">
+        <Link
+          href="/"
+          className="px-5 py-2 text-xl text-secondary font-bold bg-neutral-50 hover:bg-neutral-100 border rounded-md">
           &#60; Back
         </Link>
         <Suspense fallback={<Loading />}>

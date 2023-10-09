@@ -3,10 +3,12 @@ import React from 'react';
 
 function PostComment({ comment }: { comment: PostComment }) {
   return (
-    <div>
-      <p>{comment.author}</p>
-      <p>{comment.content}</p>
-    </div>
+    <>
+      <p className="italic font-bold text-primary-dark">{comment.author}:</p>
+      <div className="ml-5 px-3 py-4 border bg-white w-fit rounded-md">
+        <p>{comment.content}</p>
+      </div>
+    </>
   );
 }
 

@@ -1,9 +1,9 @@
 import type { Metadata } from 'next';
-import { Inter } from 'next/font/google';
+import { Onest } from 'next/font/google';
 import './globals.css';
 import Navbar from './layout_components/Navbar';
 
-const inter = Inter({ subsets: ['latin'] });
+const onest = Onest({ subsets: ['latin'], weight: '400' });
 
 export const metadata: Metadata = {
   title: 'Voyages',
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={onest.className}>
         <Navbar />
         {children}
       </body>

@@ -18,14 +18,21 @@ function PostPreview(props: PostProps) {
   }
 
   return (
-    <article className="h-full border px-2 py-3 grid sm:grid-rows-5 xl:grid-rows-6">
+    <article className="h-full border border-orange-100 bg-orange-50 hover:bg-orange-100 px-4 pt-8 pb-3 grid sm:grid-rows-5 xl:grid-rows-6 rounded-md">
       <Link href={`/posts/${props.id}`} className="h-fit">
-        <h2 className="text-xl font-bold">{props.title}</h2>
+        <h2 className="text-xl font-bold text-primary-dark hover:text-primary">{props.title}</h2>
       </Link>
       <div className="row-start-2 sm:row-span-3 xl:row-span-4">
-        {/* <img src={props.thumbnail} alt="Thumbnail" /> */}
-        <Image src={props.thumbnail} width={600} height={400} alt="thumbnail" />
-        <p>{props.description}</p>
+        <Link href={`/posts/${props.id}`} className="h-fit">
+          <Image
+            src={props.thumbnail}
+            width={600}
+            height={400}
+            alt="thumbnail"
+            className="rounded-md"
+          />
+          <p className="text-neutral-600">{props.description}</p>
+        </Link>
       </div>
       <div className="row-start-5 xl:row-start-6">
         <strong
@@ -36,8 +43,8 @@ function PostPreview(props: PostProps) {
           {props.category}
         </strong>
         <div className="mt-2 flex items-center justify-between">
-          <p className="text-sm">{props.author}</p>
-          <p className="italic text-xs" title={formatDateTime(props.publishedAt)}>
+          <p className="text-sm text-primary">{props.author}</p>
+          <p className="italic text-xs text-neutral-400" title={formatDateTime(props.publishedAt)}>
             {formatDate(props.publishedAt)}
           </p>
         </div>
