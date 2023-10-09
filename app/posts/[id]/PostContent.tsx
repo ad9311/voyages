@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import { PostProps } from '@/app/defs';
 import { formatDate, formatDateTime } from '@/app/helpers/formatDate';
 import PostComment from './PostComment';
@@ -5,7 +6,7 @@ import PostComment from './PostComment';
 function PostContent(props: PostProps) {
   const mappedImageParagraphs = props.paragraphs.map((paragraph, index) => (
     <div key={`post-${props.id}-${index}`}>
-      <img src={props.images[index]} alt={`image ${index + 1}`} />
+      <Image src={props.images[index]} width={1200} height={900} alt={`image ${index + 1}`} />
       <p className="mt-2 mb-16 text-justify">{paragraph}</p>
     </div>
   ));

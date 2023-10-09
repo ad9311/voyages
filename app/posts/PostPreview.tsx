@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { PostProps, PostCategory } from '../defs';
 import { formatDate, formatDateTime } from '../helpers/formatDate';
+import Image from 'next/image';
 
 function PostPreview(props: PostProps) {
   function categoryColor(category: PostCategory) {
@@ -22,7 +23,8 @@ function PostPreview(props: PostProps) {
         <h2 className="text-xl font-bold">{props.title}</h2>
       </Link>
       <div className="row-start-2 sm:row-span-3 xl:row-span-4">
-        <img src={props.thumbnail} alt="Thumbnail" />
+        {/* <img src={props.thumbnail} alt="Thumbnail" /> */}
+        <Image src={props.thumbnail} width={600} height={400} alt="thumbnail" />
         <p>{props.description}</p>
       </div>
       <div className="row-start-5 xl:row-start-6">
