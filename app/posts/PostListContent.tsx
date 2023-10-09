@@ -24,27 +24,29 @@ function PostListContent({ posts }: { posts: PostProps[] }) {
 
   function handleOnPageChange(e: { selected: number }) {
     setPage(e.selected + 1);
-  };
+  }
 
   const postsPerPage = 12;
   const pagesCount = countPages(posts, postsPerPage);
 
-  const sortedAndOrdedPosts = useMemo(() => { 
+  const sortedAndOrdedPosts = useMemo(() => {
     const sortedPosts = sortPosts(posts, sortBy);
     if (orderMethod === 'DESC') {
       return [...sortedPosts].reverse();
     }
 
-    return [...sortedPosts]; 
+    return [...sortedPosts];
   }, [posts, sortBy, orderMethod]);
 
-  const paginatedPosts = useMemo(() => (
-    (paginate(sortedAndOrdedPosts, postsPerPage, page) as PostProps[]).map(post => (
-      <li key={post.id}>
-        <PostPreview {...post} />
-      </li>
-    ))
-  ), [posts, page, sortedAndOrdedPosts]);
+  const paginatedPosts = useMemo(
+    () =>
+      (paginate(sortedAndOrdedPosts, postsPerPage, page) as PostProps[]).map((post) => (
+        <li key={post.id}>
+          <PostPreview {...post} />
+        </li>
+      )),
+    [page, sortedAndOrdedPosts],
+  );
 
   return (
     <>
@@ -70,11 +72,7 @@ function PostListContent({ posts }: { posts: PostProps[] }) {
       <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-3">
         {paginatedPosts}
       </ul>
-      <Paginator
-        className="mt-10"
-        onPageChange={handleOnPageChange}
-        pagesCount={pagesCount}
-       />
+      <Paginator className="mt-10" onPageChange={handleOnPageChange} pagesCount={pagesCount} />
     </>
   );
 }
