@@ -13,12 +13,10 @@ function PostListContent({ posts }: { posts: PostProps[] }) {
   const [page, setPage] = useState(1);
 
   function handleSort(e: React.ChangeEvent<HTMLSelectElement>) {
-    setPage(1);
     setSortBy(e.target.value as SortPostsBy);
   }
 
   function handleOrder(e: React.ChangeEvent<HTMLSelectElement>) {
-    setPage(1);
     setOrderMethod(e.target.value as OrderPostsMethod);
   }
 
