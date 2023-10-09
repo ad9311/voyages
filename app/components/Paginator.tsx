@@ -11,8 +11,8 @@ function Paginator(props: PaginatorProps) {
             <ReactPaginate
               className="flex items-center"
               breakLabel="..."
-              pageClassName=""
-              activeLinkClassName=""
+              pageClassName="font-bold"
+              activeLinkClassName="text-red-500"
               previousClassName=""
               nextClassName=""
               nextLabel=">"
