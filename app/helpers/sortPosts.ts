@@ -1,6 +1,6 @@
-import { Post, SortPostsBy } from '../defs';
+import { PostProps, SortPostsBy } from '../defs';
 
-export function sortPostsByAuthor(posts: Post[]) {
+export function sortPostsByAuthor(posts: PostProps[]) {
   return posts.sort((a, b) => {
     if (a.author < b.author) {
       return -1;
@@ -12,7 +12,7 @@ export function sortPostsByAuthor(posts: Post[]) {
   });
 }
 
-export function sortPostsByDate(posts: Post[]) {
+export function sortPostsByDate(posts: PostProps[]) {
   return posts.sort((a, b) => {
     const dateA = new Date(a.publishedAt);
     const dateB = new Date(b.publishedAt);
@@ -27,7 +27,7 @@ export function sortPostsByDate(posts: Post[]) {
   });
 }
 
-export function sortPostsByTopic(posts: Post[]) {
+export function sortPostsByTopic(posts: PostProps[]) {
   return posts.sort((a, b) => {
     if (a.category < b.category) {
       return -1;
@@ -39,7 +39,7 @@ export function sortPostsByTopic(posts: Post[]) {
   });
 }
 
-function sortPosts(posts: Post[], sortBy: SortPostsBy) {
+function sortPosts(posts: PostProps[], sortBy: SortPostsBy) {
   switch (sortBy) {
     case 'AUTHOR':
       return sortPostsByAuthor(posts);
