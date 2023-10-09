@@ -26,7 +26,7 @@ function PostListContent({ posts }: { posts: PostProps[] }) {
     setPage(e.selected + 1);
   };
 
-  const postsPerPage = 9;
+  const postsPerPage = 12;
   const pagesCount = countPages(posts, postsPerPage);
 
   const sortedAndOrdedPosts = useMemo(() => { 
